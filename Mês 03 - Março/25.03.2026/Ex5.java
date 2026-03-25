@@ -25,6 +25,7 @@ public class Ex5 {
 		// ponto
 		// a variável somaAltura contém a soma completa de todas as alturas.
 		// Se fosse calculada dentro do laço, o valor ainda estaria incompleto.
+		// Atualização do GitHub
 		double media = somaAltura / 5;
 
 		System.out.println("Média de altura " + media + " metros");
