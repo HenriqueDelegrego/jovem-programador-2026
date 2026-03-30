@@ -9,7 +9,7 @@ public class Ex9 {
 		System.out.println("Insira o número de inscrição do atleta");
 		String numeroInscricao = input.next();
 
-		System.out.println("Insira a altura do atlta");
+		System.out.println("Insira a altura do atleta");
 		double altura = input.nextDouble();
 
 		double somaAltura = 0;
