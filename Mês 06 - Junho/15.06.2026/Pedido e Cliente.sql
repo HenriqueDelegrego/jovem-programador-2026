@@ -20,3 +20,11 @@ PRIMARY KEY(id),
 FOREIGN KEY(id_cliente)
 REFERENCES cliente(id)
 );
+
+
+INSERT INTO cliente (id, nome, email, senha, data_nascimento, cpf)
+VALUES (1, 'Henrique', 'henrique@email.com', 'senha', '2001-10-11', '11111111111');
+
+
+INSERT INTO pedido (id, data_pedido, preco, id_cliente)
+VALUES (1, '2026-06-16', 100.25, 1);
