@@ -90,3 +90,17 @@ SELECT professor.nome Nome, area.nome Área
 FROM professor
 JOIN area
 ON professor.area_id = area.id;
+
+-- Listar o nome dos alunos, junto com o nome dos seus professores
+SELECT aluno.nome Aluno, professor.nome Professor
+FROM aluno
+JOIN professor
+ON aluno.professor_id = professor.id;
+
+-- Continuando a última questão, adicione também a área do professor
+SELECT aluno.nome Aluno, professor.nome Professor, area.nome Área
+FROM aluno
+JOIN professor
+ON aluno.professor_id = professor.id
+JOIN area
+ON professor.area_id = area.id;
