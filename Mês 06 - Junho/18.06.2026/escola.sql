@@ -84,3 +84,9 @@ WHERE data_nascimento >= '2002-01-01';
 SELECT *
 FROM aluno
 WHERE professor_id = 1;
+
+-- Seleção entre múltiplas tabelas
+SELECT professor.nome Nome, area.nome Área
+FROM professor
+JOIN area
+ON professor.area_id = area.id;
